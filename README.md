@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Telco Customer Churn Prediction Pipeline
 
 ## Internship Task
@@ -9,9 +8,7 @@ Task 2: End-to-End ML Pipeline with Scikit-learn Pipeline API
 
 ## Objective
 
-The objective of this project is to build a reusable and
-production-ready machine learning pipeline for predicting
-telecom customer churn.
+The objective of this project is to build a reusable and production-ready machine learning pipeline for predicting telecom customer churn.
 
 ## Dataset
 
@@ -19,16 +16,14 @@ IBM Telco Customer Churn dataset in Excel format.
 
 Target:
 
-- `Churn Value = 0`: customer stayed
-- `Churn Value = 1`: customer churned
+- `Churn Value = 0`: Customer stayed
+- `Churn Value = 1`: Customer churned
 
 ## Features
 
-The model uses customer service, billing, contract and
-subscription-related attributes.
+The model uses customer service, billing, contract, and subscription-related attributes.
 
-Leakage and unnecessary columns such as `Churn Score`,
-`Churn Reason`, `Churn Label` and `CLTV` were removed.
+Leakage and unnecessary columns such as `Churn Score`, `Churn Reason`, `Churn Label`, and `CLTV` were removed.
 
 ## Preprocessing
 
@@ -60,13 +55,7 @@ Leakage and unnecessary columns such as `Churn Score`,
 
 ## Results
 
-Add the actual results produced by the notebook here.
-
-| Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
-|---|---:|---:|---:|---:|---:|
-| Logistic Regression | Add result | Add result | Add result | Add result | Add result |
-| Random Forest | Add result | Add result | Add result | Add result | Add result |
-| Tuned Random Forest | Add result | Add result | Add result | Add result | Add result |
+The model evaluation results are available in the notebook and screenshots.
 
 ## Project Structure
 
@@ -79,16 +68,3 @@ task2/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
-
-
-
-## Run Locally
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-streamlit run app.py
-=======
-# DHC-phase2
-DHC internship phase 2 tasks.
->>>>>>> a9f9e1ca08a735e0711c3738fc9ba12abf61278c
