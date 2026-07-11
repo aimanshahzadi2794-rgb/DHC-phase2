@@ -68,15 +68,17 @@ task2/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
+## Run Locally
 
-
-Run Locally
+```bash
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run app.py
+```
 
 ## Live Demo
 
-[Open the deployed Streamlit application](https://aimanshahzadi2794-rgb-dhc-phase2-app-gnujly.streamlit.app/)
+[Open the deployed Streamlit application](https://aimanshahzadi2794-rgb-dhc-phase2-app-gnujly.streamlit.app)
