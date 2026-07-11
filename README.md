@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Telco Customer Churn Prediction Pipeline
 
 ## Internship Task
@@ -87,3 +88,7 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run app.py
+=======
+# DHC-phase2
+DHC internship phase 2 tasks.
+>>>>>>> a9f9e1ca08a735e0711c3738fc9ba12abf61278c
