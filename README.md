@@ -59,6 +59,7 @@ The model evaluation results are available in the notebook and screenshots.
 
 ## Project Structure
 
+```text
 task2/
 ├── app.py
 ├── churn_pipeline.joblib
