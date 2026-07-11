@@ -59,7 +59,6 @@ The model evaluation results are available in the notebook and screenshots.
 
 ## Project Structure
 
-```text
 task2/
 ├── app.py
 ├── churn_pipeline.joblib
@@ -68,3 +67,11 @@ task2/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
+
+
+## Run Locally
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run app.py
